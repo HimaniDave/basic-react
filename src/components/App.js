@@ -15,7 +15,7 @@ export default class App extends React.Component {
   handleInputChange = (inputText) => {
     this.setState({
       imgExpanded: !inputText,
-      suggestedNames: name(inputText),
+      suggestedNames: inputText ? name(inputText) : [],
     });
   };
 

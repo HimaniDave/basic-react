@@ -9,7 +9,8 @@
 .search-box {
   padding: 8px 15px;
   font-size: 15px;
-  width: 250px;
+  width: 280px;
+  margin-top: 16px;
   border-width: 0px;
   background-color: #a592f2;
   color: #e7e9f0;
